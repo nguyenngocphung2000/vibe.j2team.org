@@ -1,4 +1,4 @@
-# Design System - vibe.j2team.dev
+# Design System - vibe.j2team.org
 
 Design direction: **Retro-Futuristic Editorial** — inspired by magazine/editorial design with warm tones, geometric shapes, and bold personality.
 

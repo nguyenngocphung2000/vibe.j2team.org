@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-vibe.j2team.dev - A collaborative vibe coding project by J2TEAM Community. The homepage acts as a launcher linking to sub-pages, where each community member creates their own page.
+vibe.j2team.org - A collaborative vibe coding project by J2TEAM Community. The homepage acts as a launcher linking to sub-pages, where each community member creates their own page.
 
 ## Tech Stack
 

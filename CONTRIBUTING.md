@@ -1,6 +1,6 @@
 # Hướng dẫn đóng góp
 
-Cảm ơn bạn đã quan tâm đến dự án **vibe.j2team.dev**! Dưới đây là hướng dẫn để bạn có thể tham gia.
+Cảm ơn bạn đã quan tâm đến dự án **vibe.j2team.org**! Dưới đây là hướng dẫn để bạn có thể tham gia.
 
 ## Yêu cầu
 
@@ -13,8 +13,8 @@ Cảm ơn bạn đã quan tâm đến dự án **vibe.j2team.dev**! Dưới đâ
 # 1. Fork repo trên GitHub
 
 # 2. Clone về máy
-git clone https://github.com/<username>/vibe.j2team.dev.git
-cd vibe.j2team.dev
+git clone https://github.com/<username>/vibe.j2team.org.git
+cd vibe.j2team.org
 
 # 3. Cài đặt dependencies
 pnpm install

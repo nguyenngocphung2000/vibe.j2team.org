@@ -8,7 +8,7 @@ import { RouterLink } from 'vue-router'
       Hello World!
     </h1>
     <p class="mt-4 text-text-secondary text-lg text-center max-w-md animate-fade-up animate-delay-2">
-      Đây là trang mẫu đầu tiên của dự án vibe.j2team.dev.
+      Đây là trang mẫu đầu tiên của dự án vibe.j2team.org.
       Bạn có thể dùng trang này làm template để tạo trang của riêng mình.
     </p>
     <RouterLink

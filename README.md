@@ -1,4 +1,4 @@
-# vibe.j2team.dev
+# vibe.j2team.org
 
 **Sẽ thế nào nếu cả nhóm [J2TEAM Community](https://www.facebook.com/groups/j2team.community/) vibe code cùng nhau?**
 
