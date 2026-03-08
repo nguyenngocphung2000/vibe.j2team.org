@@ -161,6 +161,17 @@ Apps can import from these directories but are never required to. Each app remai
 - Framework: Vitest + Vue Test Utils + JSDOM
 - Test files: `src/__tests__/`
 
+## PR Checklist (MUST pass before creating PR)
+
+1. **CI must pass** — Run `pnpm build` (type-check + build) and `pnpm lint:ci` locally before pushing. Do NOT create a PR with failing CI
+2. **No unused code** — Remove variables, constants, imports, and type definitions that are not actually used. Do not define constants and then hard-code values instead of using them
+3. **Use `RouterLink` for internal navigation** — Never use raw `<a>` tags for links within the app. Use Vue Router's `<RouterLink :to="...">` instead. Refer to existing pages for examples
+4. **Do not redefine shared types** — Import types like `PageMeta` from the shared `types.ts` or `@/types/page` instead of redefining them in your files
+5. **Only commit `pnpm-lock.yaml`** — Do not commit `package-lock.json` or `yarn.lock`
+6. **UTF-8 encoding** — Ensure all Vietnamese text is properly encoded in UTF-8 (no garbled characters)
+7. **Follow `meta.ts` structure** — Copy the pattern from `src/views/hello-world/meta.ts` exactly. Import `PageMeta` type, export default with required fields
+8. **No exposed API endpoints/secrets** — Since this is open source, never hard-code API keys, endpoints, or secrets in the source code
+
 ## Linting & Formatting
 
 - ESLint + eslint-plugin-vue + @vue/eslint-config-typescript
