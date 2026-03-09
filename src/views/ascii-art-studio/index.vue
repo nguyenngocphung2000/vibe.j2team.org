@@ -1,9 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, watch, computed } from 'vue'
-import { useEventListener, useTitle } from '@vueuse/core'
+import { useEventListener } from '@vueuse/core'
 import { Icon } from '@iconify/vue'
-
-useTitle('ASCII Art Studio | J2TEAM Vibe')
 
 // --- State ---
 const imageInput = ref<HTMLInputElement | null>(null)
