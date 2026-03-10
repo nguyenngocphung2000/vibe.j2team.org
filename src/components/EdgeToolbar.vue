@@ -220,29 +220,4 @@ function reportIssue() {
 .toolbar-label {
   font-size: 0.75rem;
 }
-
-.icon-filled :deep(path) {
-  fill: currentColor;
-}
-
-@keyframes heart-pop {
-  0% {
-    transform: scale(0.2);
-    opacity: 0.8;
-  }
-  40% {
-    transform: scale(1.3);
-    opacity: 1;
-  }
-  70% {
-    transform: scale(0.85);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-.toolbar-btn.is-animating svg {
-  animation: heart-pop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
 </style>
