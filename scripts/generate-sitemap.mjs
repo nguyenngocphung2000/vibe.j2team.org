@@ -88,6 +88,9 @@ const sitemaps = [
       { loc: `${SITE_URL}/leaderboard`, changefreq: 'weekly', priority: '0.5' },
       { loc: `${SITE_URL}/bookmarks`, changefreq: 'monthly', priority: '0.3' },
       { loc: `${SITE_URL}/content-policy`, changefreq: 'monthly', priority: '0.3' },
+      { loc: `${SITE_URL}/members`, changefreq: 'weekly', priority: '0.5' },
+      { loc: `${SITE_URL}/terms`, changefreq: 'monthly', priority: '0.3' },
+      { loc: `${SITE_URL}/privacy`, changefreq: 'monthly', priority: '0.3' },
     ],
   },
   {
