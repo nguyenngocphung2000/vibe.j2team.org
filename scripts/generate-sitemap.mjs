@@ -77,6 +77,11 @@ ${entries}
 
 // --- Main ---
 
+const CATEGORIES = [
+  'game', 'fun', 'tool', 'learn', 'spiritual',
+  'creative', 'connect', 'health', 'finance', 'other',
+]
+
 const { apps, authors } = collectPages()
 mkdirSync(SITEMAPS_DIR, { recursive: true })
 
@@ -89,6 +94,11 @@ const sitemaps = [
       { loc: `${SITE_URL}/bookmarks`, changefreq: 'monthly', priority: '0.3' },
       { loc: `${SITE_URL}/content-policy`, changefreq: 'monthly', priority: '0.3' },
       { loc: `${SITE_URL}/members`, changefreq: 'weekly', priority: '0.5' },
+      ...CATEGORIES.map((id) => ({
+        loc: `${SITE_URL}/category/${id}`,
+        changefreq: 'weekly',
+        priority: '0.6',
+      })),
       { loc: `${SITE_URL}/terms`, changefreq: 'monthly', priority: '0.3' },
       { loc: `${SITE_URL}/privacy`, changefreq: 'monthly', priority: '0.3' },
     ],
